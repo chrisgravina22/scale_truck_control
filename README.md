@@ -136,7 +136,7 @@
 >## 0.2.3 Jetson Stats
 >~~~
 >sudo -H pip3 install jetson-stats
->jeson_release
+>jetson_release
 >~~~
 
 >## 0.3.1 ZeroMQ (cppzmq)
@@ -231,7 +231,7 @@ cd ~/catkin_ws/src
 >sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 >sudo apt install python-rosdep
 >sudo rosdep init
->rosdep update
+>rosdep update --include-eol-distros
 >```
 >### python 3.6
 >```
